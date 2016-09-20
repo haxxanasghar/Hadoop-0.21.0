@@ -1,0 +1,5 @@
+2016-09-07 00:22:16,180 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Retiring job status from the store [hdfs://master:8020/jobtracker/jobsInfo/job_201609061831_0011.info]
+2016-09-07 00:41:45,070 INFO org.apache.hadoop.mapred.JSPUtil: Loading Job History file job_201609062321_0002.   Cache size is 1
+2016-09-07 01:22:16,222 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Retiring job status from the store [hdfs://master:8020/jobtracker/jobsInfo/job_201609062321_0001.info]
+2016-09-07 01:22:16,976 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Retiring job status from the store [hdfs://master:8020/jobtracker/jobsInfo/job_201609062321_0002.info]
+2016-09-07 23:21:46,224 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens

@@ -1,0 +1,68 @@
+2016-07-22 00:12:47,015 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 00:17:35,776 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 00:17:37,048 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 01:12:47,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 01:17:37,524 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 01:17:38,459 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 01:52:14,783 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.105:50010
+2016-07-22 01:52:14,783 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.105:50010
+2016-07-22 02:12:47,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 02:17:38,991 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 02:17:39,978 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 03:12:47,019 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 03:17:40,768 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 03:17:41,898 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 04:12:47,020 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 04:17:42,397 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 04:17:43,310 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 05:12:47,021 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 05:17:43,762 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 05:17:44,829 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 06:12:47,021 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 06:17:45,296 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 06:17:46,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 07:12:47,022 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 07:17:46,812 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 07:17:47,724 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 08:12:47,023 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 08:17:48,220 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 08:17:49,192 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 09:12:47,024 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 09:17:49,741 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 09:17:50,673 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 10:12:47,025 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 10:17:51,191 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 10:17:52,055 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 11:12:47,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 11:17:52,544 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 11:17:53,549 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 12:12:47,041 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 12:17:54,073 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 12:17:54,962 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 13:12:47,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 13:17:55,554 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 13:17:56,453 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 14:12:47,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 14:17:56,948 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 14:17:57,839 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 15:12:47,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-07-22 15:17:58,302 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-07-22 15:17:59,232 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-07-22 15:42:16,101 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.103:50010
+2016-07-22 15:42:16,102 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.103:50010
+2016-07-22 15:42:16,102 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.104:50010
+2016-07-22 15:42:16,102 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.104:50010
+2016-07-22 15:42:19,099 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_-5888350792364706702_1190 to datanode(s) 10.129.40.102:50010
+2016-07-22 15:42:19,099 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_-5828528082614869497_1181 to datanode(s) 10.129.40.102:50010
+2016-07-22 15:42:19,312 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.102:50010 is added to blk_-5828528082614869497_1181 size 316
+2016-07-22 15:42:19,337 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.102:50010 is added to blk_-5888350792364706702_1190 size 527547
+2016-07-22 15:42:22,100 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_-5039782226228320961_1182 to datanode(s) 10.129.40.102:50010
+2016-07-22 15:42:22,100 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_-4037008373088082926_1183 to datanode(s) 10.129.40.102:50010
+2016-07-22 15:42:22,100 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.102:50010 to replicate blk_813074676903770221_1195 to datanode(s) 10.129.40.101:50010
+2016-07-22 15:42:22,301 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.102:50010 is added to blk_-5039782226228320961_1182 size 7
+2016-07-22 15:42:22,323 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.102:50010 is added to blk_-4037008373088082926_1183 size 1573079
+2016-07-22 15:42:22,512 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_813074676903770221_1195 size 4
+2016-07-22 16:01:22,144 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at master/10.129.40.100
+************************************************************/

@@ -1,0 +1,829 @@
+2016-09-10 00:44:58,657 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 00:44:58,810 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 00:44:58,813 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 00:44:58,814 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 00:44:58,814 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 00:44:58,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 00:44:58,859 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 00:44:59,218 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 00:44:59,594 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473448498000:1473444898177
+2016-09-10 00:45:00,045 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 01:45:00,062 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 01:45:00,203 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 01:45:00,204 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 01:45:00,204 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 01:45:00,204 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 01:45:00,244 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 01:45:00,603 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 01:45:01,004 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473452100000:1473448499610
+2016-09-10 01:45:01,446 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 02:45:01,463 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 02:45:01,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 02:45:01,623 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 02:45:01,624 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 02:45:01,624 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 02:45:01,624 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 02:45:01,663 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 02:45:02,006 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 02:45:02,356 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473455701000:1473452101021
+2016-09-10 02:45:02,816 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 03:45:02,830 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 03:45:02,982 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 03:45:02,983 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 03:45:02,984 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 03:45:02,984 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 03:45:02,984 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 03:45:03,023 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 03:45:03,374 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 03:45:03,741 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473459302000:1473455702380
+2016-09-10 03:45:04,184 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 04:45:04,205 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 04:45:04,339 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 04:45:04,339 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 04:45:04,340 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 04:45:04,341 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 04:45:04,341 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 04:45:04,341 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 04:45:04,380 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 04:45:04,722 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 04:45:05,115 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473462904000:1473459303758
+2016-09-10 04:45:05,533 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 05:45:05,554 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 05:45:05,694 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 05:45:05,695 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 05:45:05,696 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 05:45:05,696 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 05:45:05,696 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 05:45:05,735 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 05:45:06,086 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 05:45:06,437 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473466505000:1473462905134
+2016-09-10 05:45:06,889 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 06:45:06,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 06:45:07,080 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 06:45:07,081 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 06:45:07,082 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 06:45:07,082 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 06:45:07,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 06:45:07,135 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 06:45:07,477 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 06:45:07,820 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473470107000:1473466506453
+2016-09-10 06:45:08,221 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 07:45:08,238 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 07:45:08,391 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 07:45:08,392 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 07:45:08,392 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 07:45:08,392 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 07:45:08,432 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 07:45:08,766 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 07:45:09,109 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473473708000:1473470107838
+2016-09-10 07:45:09,526 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 08:45:09,542 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 08:45:09,684 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 08:45:09,685 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 08:45:09,686 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 08:45:09,686 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 08:45:09,686 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 08:45:09,726 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 08:45:10,068 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 08:45:10,403 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473477309000:1473473709139
+2016-09-10 08:45:10,787 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 09:45:10,809 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 09:45:10,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 09:45:10,961 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 09:45:10,962 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 09:45:10,962 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 09:45:10,962 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 09:45:11,001 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 09:45:11,344 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 09:45:11,686 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473480910000:1473477310426
+2016-09-10 09:45:12,155 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 10:45:12,171 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 10:45:12,320 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 10:45:12,321 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 10:45:12,322 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 10:45:12,322 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 10:45:12,322 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 10:45:12,361 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 10:45:12,695 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 10:45:13,079 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473484512000:1473480911718
+2016-09-10 10:45:13,540 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 11:45:13,556 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 11:45:13,701 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 11:45:13,702 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 11:45:13,705 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 11:45:13,705 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 11:45:13,705 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 11:45:13,743 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 11:45:14,085 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 11:45:14,461 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473488113000:1473484513100
+2016-09-10 11:45:14,862 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 12:45:14,877 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 12:45:15,031 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 12:45:15,032 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 12:45:15,033 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 12:45:15,033 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 12:45:15,033 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 12:45:15,081 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 12:45:15,423 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 12:45:15,791 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473491714000:1473488114483
+2016-09-10 12:45:16,250 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 13:45:16,266 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 13:45:16,401 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 13:45:16,402 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 13:45:16,403 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 13:45:16,403 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 13:45:16,403 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 13:45:16,442 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 13:45:16,785 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 13:45:17,144 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473495316000:1473491715823
+2016-09-10 13:45:17,578 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 14:45:17,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 14:45:17,737 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 14:45:17,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 14:45:17,739 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 14:45:17,740 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 14:45:17,740 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 14:45:17,740 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 14:45:17,778 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 14:45:18,113 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 14:45:18,455 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473498917000:1473495317168
+2016-09-10 14:45:18,864 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 15:45:18,884 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 15:45:19,038 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 15:45:19,039 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 15:45:19,040 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 15:45:19,040 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 15:45:19,040 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 15:45:19,079 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 15:45:19,422 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 15:45:19,814 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473502518000:1473498918474
+2016-09-10 15:45:20,224 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 16:45:20,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 16:45:20,392 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 16:45:20,393 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 16:45:20,394 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 16:45:20,394 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 16:45:20,394 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 16:45:20,433 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 16:45:20,776 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 16:45:21,127 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473506120000:1473502519830
+2016-09-10 16:45:21,528 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 17:45:21,542 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 17:45:21,699 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 17:45:21,700 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 17:45:21,700 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 17:45:21,700 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 17:45:21,740 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 17:45:22,074 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 17:45:22,425 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473509721000:1473506121144
+2016-09-10 17:45:22,910 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 18:45:22,925 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 18:45:23,055 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 18:45:23,056 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 18:45:23,057 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 18:45:23,057 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 18:45:23,057 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 18:45:23,104 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 18:45:23,447 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 18:45:23,848 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473513323000:1473509722442
+2016-09-10 18:45:24,240 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 19:45:25,791 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 19:45:26,528 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 19:45:26,531 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 19:45:26,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 19:45:26,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 19:45:26,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 19:45:26,592 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 19:45:26,596 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 19:45:26,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 19:45:26,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 19:45:26,602 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 19:45:26,612 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 19:45:26,682 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 19:45:26,701 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 19:45:26,723 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 19:45:26,733 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 19:45:26,789 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 19:45:27,297 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 19:45:27,786 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473516926000:1473513323874
+2016-09-10 19:45:28,413 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 20:45:28,764 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 20:45:29,389 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 20:45:29,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 20:45:29,568 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 20:45:29,643 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 20:45:29,644 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 20:45:29,644 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 20:45:29,729 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 20:45:30,379 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 20:45:30,840 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473520529000:1473516928002
+2016-09-10 20:45:31,292 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 21:45:32,620 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 21:45:33,618 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 21:45:33,620 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 21:45:34,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 21:45:34,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 21:45:34,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 21:45:34,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 21:45:34,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 21:45:34,025 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 21:45:34,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 21:45:34,026 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 21:45:34,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 21:45:34,189 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 21:45:34,235 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 21:45:34,268 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 21:45:34,276 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 21:45:34,376 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 21:45:34,876 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 21:45:35,357 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473524133000:1473520530865
+2016-09-10 21:45:36,578 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 22:45:38,127 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 22:45:38,496 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 79196 bytes.
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 22:45:38,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 22:45:38,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 22:45:38,561 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 22:45:38,601 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 22:45:38,601 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 22:45:38,601 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 22:45:38,653 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 22:45:38,996 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 saved in 0 seconds.
+2016-09-10 22:45:39,878 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473527738000:1473524135921
+2016-09-10 22:45:40,452 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 79196
+2016-09-10 22:55:41,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 22:55:42,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 22:55:43,737 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 22:55:44,738 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 22:55:45,738 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 22:55:46,739 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 22:55:47,739 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 22:55:48,740 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 22:55:49,740 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 22:55:50,741 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 22:55:50,825 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 22:55:50,890 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:00:52,288 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:00:53,289 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:00:54,289 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:00:55,290 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:00:56,290 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:00:57,290 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:00:58,291 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:00:59,291 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:01:00,292 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:01:01,292 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:01:01,304 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:01:01,304 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:06:02,305 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:06:03,305 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:06:04,306 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:06:05,306 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:06:06,306 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:06:07,307 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:06:08,308 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:06:09,308 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:06:10,309 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:06:11,309 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:06:11,310 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:06:11,310 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:11:12,312 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:11:13,312 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:11:14,313 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:11:15,313 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:11:16,314 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:11:17,314 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:11:18,315 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:11:19,325 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:11:20,326 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:11:21,326 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:11:21,327 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:11:21,365 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:16:22,480 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:16:23,481 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:16:24,482 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:16:25,483 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:16:26,484 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:16:27,486 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:16:28,486 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:16:29,488 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:16:30,488 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:16:31,488 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:16:31,510 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:16:31,512 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:21:32,522 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:21:33,523 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:21:34,523 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:21:35,524 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:21:36,524 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:21:37,525 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:21:38,525 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:21:39,539 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:21:40,540 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:21:41,541 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:21:41,545 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:21:41,548 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:26:42,549 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:26:43,549 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:26:44,569 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:26:45,569 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:26:46,569 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:26:47,570 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:26:48,571 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:26:49,572 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:26:50,572 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:26:51,573 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:26:51,574 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:26:51,617 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.SocketException: Network is unreachable
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketException: Network is unreachable
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:192)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:31:55,617 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:31:58,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:32:01,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:32:04,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:32:07,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:32:10,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:32:13,630 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:32:16,616 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:32:19,620 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:32:22,620 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:32:24,641 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:32:24,721 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.NoRouteToHostException: No route to host
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:37:28,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:37:31,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:37:34,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:37:37,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:37:40,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:37:43,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:37:46,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:37:49,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:37:52,721 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:37:55,720 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:37:57,720 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:37:57,736 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.NoRouteToHostException: No route to host
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:43:01,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:43:04,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:43:07,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:43:10,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:43:13,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:43:16,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:43:19,748 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:43:22,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:43:25,736 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:43:28,737 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:43:30,736 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:43:30,758 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.NoRouteToHostException: No route to host
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:48:34,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:48:37,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:48:40,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:48:43,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:48:46,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:48:49,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:48:52,781 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:48:55,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:48:58,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:49:01,780 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:49:03,780 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:49:03,858 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.NoRouteToHostException: No route to host
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:54:07,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:54:10,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:54:13,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:54:16,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:54:19,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:54:22,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:54:25,895 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).
+2016-09-10 23:54:28,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 7 time(s).
+2016-09-10 23:54:31,891 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 8 time(s).
+2016-09-10 23:54:34,876 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 9 time(s).
+2016-09-10 23:54:36,876 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Exception in doCheckpoint: 
+2016-09-10 23:54:36,877 ERROR org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: java.io.IOException: Call to master/10.129.40.100:8020 failed on local exception: java.net.NoRouteToHostException: No route to host
+	at org.apache.hadoop.ipc.Client.wrapException(Client.java:940)
+	at org.apache.hadoop.ipc.Client.call(Client.java:908)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy4.getEditLogSize(Unknown Source)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.run(SecondaryNameNode.java:225)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.NoRouteToHostException: No route to host
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:373)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:417)
+	at org.apache.hadoop.ipc.Client$Connection.access$1900(Client.java:207)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1025)
+	at org.apache.hadoop.ipc.Client.call(Client.java:885)
+	... 4 more
+
+2016-09-10 23:59:40,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 0 time(s).
+2016-09-10 23:59:43,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 1 time(s).
+2016-09-10 23:59:46,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 2 time(s).
+2016-09-10 23:59:49,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 3 time(s).
+2016-09-10 23:59:52,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 4 time(s).
+2016-09-10 23:59:55,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 5 time(s).
+2016-09-10 23:59:58,900 INFO org.apache.hadoop.ipc.Client: Retrying connect to server: master/10.129.40.100:8020. Already tried 6 time(s).

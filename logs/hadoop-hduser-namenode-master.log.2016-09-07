@@ -1,0 +1,100 @@
+2016-09-07 00:22:16,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 00:22:16,181 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_9155359296057295581_6995 to 10.129.40.102:50010 10.129.40.103:50010 10.129.40.105:50010 10.129.40.101:50010 
+2016-09-07 00:22:16,181 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 109 Total time for transactions(ms): 2Number of transactions batched in Syncs: 3 Number of syncs: 44 SyncTimes(ms): 5218 
+2016-09-07 00:22:16,221 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=delete	src=/jobtracker/jobsInfo/job_201609061831_0011.info	dst=null	perm=null
+2016-09-07 00:22:18,652 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to delete  blk_9155359296057295581_6995
+2016-09-07 00:22:18,652 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.103:50010 to delete  blk_9155359296057295581_6995
+2016-09-07 00:22:21,652 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.102:50010 to delete  blk_9155359296057295581_6995
+2016-09-07 00:22:21,652 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to delete  blk_9155359296057295581_6995
+2016-09-07 00:26:42,518 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 00:26:43,415 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 01:11:42,123 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6469556580943644020 to add as corrupt on 10.129.40.101:50010 by /10.129.40.101
+2016-09-07 01:22:16,221 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 01:22:16,222 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_149031977540150321_7006 to 10.129.40.101:50010 10.129.40.102:50010 10.129.40.105:50010 
+2016-09-07 01:22:16,222 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 110 Total time for transactions(ms): 2Number of transactions batched in Syncs: 3 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-07 01:22:16,976 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=delete	src=/jobtracker/jobsInfo/job_201609062321_0001.info	dst=null	perm=null
+2016-09-07 01:22:16,977 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_4308394994595424171_7016 to 10.129.40.101:50010 10.129.40.105:50010 10.129.40.103:50010 
+2016-09-07 01:22:16,997 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=delete	src=/jobtracker/jobsInfo/job_201609062321_0002.info	dst=null	perm=null
+2016-09-07 01:22:18,859 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to delete  blk_4308394994595424171_7016 blk_149031977540150321_7006
+2016-09-07 01:22:18,859 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to delete  blk_4308394994595424171_7016 blk_149031977540150321_7006
+2016-09-07 01:22:21,859 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.102:50010 to delete  blk_149031977540150321_7006
+2016-09-07 01:22:21,859 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.103:50010 to delete  blk_4308394994595424171_7016
+2016-09-07 01:26:43,894 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 01:26:45,312 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 02:22:16,998 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 02:26:45,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 02:26:46,792 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 02:47:37,747 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3582789123556368590 to add as corrupt on 10.129.40.102:50010 by /10.129.40.102
+2016-09-07 03:22:17,000 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 03:26:47,354 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 03:26:48,326 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 03:53:54,616 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6446045949068725457 to add as corrupt on 10.129.40.105:50010 by /10.129.40.105
+2016-09-07 04:22:17,001 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 04:26:48,824 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 04:26:49,747 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 05:22:17,002 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 05:26:50,231 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 05:26:51,327 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 06:22:17,003 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 06:26:51,848 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 06:26:52,866 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 07:11:43,743 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6469556580943644020 to add as corrupt on 10.129.40.101:50010 by /10.129.40.101
+2016-09-07 07:22:17,004 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 07:26:53,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 07:26:54,436 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 08:22:17,005 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 08:26:54,974 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 08:26:55,981 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 08:47:36,087 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3582789123556368590 to add as corrupt on 10.129.40.102:50010 by /10.129.40.102
+2016-09-07 09:22:17,006 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 09:26:56,441 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 09:26:57,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 09:53:56,784 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6446045949068725457 to add as corrupt on 10.129.40.105:50010 by /10.129.40.105
+2016-09-07 10:22:17,007 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 10:26:59,793 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 10:27:00,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 11:22:17,008 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 11:27:01,325 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 11:27:02,267 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 12:22:17,009 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 12:27:03,864 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 12:27:04,862 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 13:11:45,337 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6469556580943644020 to add as corrupt on 10.129.40.101:50010 by /10.129.40.101
+2016-09-07 13:22:17,009 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 13:27:05,299 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 13:27:06,266 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 14:22:17,011 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 14:27:07,760 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 14:27:08,717 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 14:47:37,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3582789123556368590 to add as corrupt on 10.129.40.102:50010 by /10.129.40.102
+2016-09-07 15:22:17,012 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 15:27:09,268 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 15:27:10,186 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 15:53:58,949 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6446045949068725457 to add as corrupt on 10.129.40.105:50010 by /10.129.40.105
+2016-09-07 16:22:17,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 16:27:10,687 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 16:27:11,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 17:22:17,013 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 17:27:12,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 17:27:14,546 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 18:22:17,014 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 18:27:15,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 18:27:15,903 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 19:11:43,922 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6469556580943644020 to add as corrupt on 10.129.40.101:50010 by /10.129.40.101
+2016-09-07 19:22:17,015 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 19:27:16,453 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 19:27:17,332 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 20:22:17,016 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 20:27:17,840 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 20:27:18,711 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 20:47:35,694 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3582789123556368590 to add as corrupt on 10.129.40.102:50010 by /10.129.40.102
+2016-09-07 21:22:17,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 21:27:19,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 21:27:20,077 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 21:53:58,119 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_6446045949068725457 to add as corrupt on 10.129.40.105:50010 by /10.129.40.105
+2016-09-07 22:22:17,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 22:27:22,426 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 22:27:23,758 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-07 23:22:17,020 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-07 23:27:24,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-07 23:27:25,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100

@@ -1,0 +1,17 @@
+2016-08-02 13:02:22,137 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-08-02 13:02:50,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252245_0001_conf.xml
+2016-08-02 13:02:50,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0003_hduser
+2016-08-02 13:02:50,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0004_hduser.201607252203.old
+2016-08-02 13:02:50,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0004_conf.xml.201607252203.old
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252245_0002_hduser.201607252252.old
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252203_0002_conf.xml
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252252_0001_hduser.201607252253.old
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252253_0001_hduser
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252245_0002_conf.xml.201607252252.old
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252203_0002_hduser
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252252_0001_conf.xml.201607252253.old
+2016-08-02 13:02:50,308 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252203_0001_hduser
+2016-08-02 13:02:50,309 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252253_0001_conf.xml
+2016-08-02 13:02:50,309 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252203_0001_conf.xml
+2016-08-02 13:02:50,309 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607252245_0001_hduser
+2016-08-02 13:02:50,309 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0003_conf.xml

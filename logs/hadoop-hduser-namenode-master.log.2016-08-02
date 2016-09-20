@@ -1,0 +1,72 @@
+2016-08-02 00:02:50,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 00:07:35,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 00:07:36,856 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 01:02:50,377 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 01:07:37,367 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 01:07:38,251 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 02:02:50,378 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 02:07:38,722 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 02:07:39,543 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 03:02:50,380 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 03:07:40,033 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 03:07:40,883 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 04:02:50,381 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 04:07:41,341 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 04:07:42,199 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 05:02:50,383 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 05:07:42,642 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 05:07:43,509 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 06:02:50,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 06:07:44,001 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 06:07:46,261 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 07:02:50,385 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 07:07:46,731 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 07:07:47,630 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 08:02:50,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 08:07:48,251 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 08:07:49,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 09:02:50,389 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 09:07:49,615 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 09:07:50,461 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 10:02:50,390 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 10:07:51,222 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 10:07:52,254 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 11:02:50,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 11:07:52,905 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 11:07:53,937 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 12:02:50,403 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 12:07:54,551 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 12:07:56,284 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 13:02:50,422 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 13:07:57,663 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 13:07:59,777 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 14:02:50,442 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 14:08:00,616 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 14:08:01,838 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 15:02:50,443 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 15:08:03,195 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 15:08:05,184 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 16:02:50,444 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 16:08:05,749 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 16:08:07,206 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 17:02:50,445 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 17:08:08,091 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 17:08:09,219 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 18:02:50,446 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 18:08:09,812 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 18:08:10,875 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 19:02:50,470 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 19:08:14,996 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 19:08:16,423 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 20:02:50,525 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 20:08:17,011 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 20:08:18,156 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 21:02:50,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 21:08:23,032 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 21:08:32,841 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 22:02:50,954 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 22:08:37,856 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 22:08:41,855 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-02 23:02:51,008 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-02 23:08:43,025 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-02 23:08:44,647 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100

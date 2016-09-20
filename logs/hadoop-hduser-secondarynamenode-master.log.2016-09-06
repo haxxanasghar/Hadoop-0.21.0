@@ -1,0 +1,726 @@
+2016-09-06 00:34:25,793 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 53612 bytes.
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 79153 bytes.
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 00:34:28,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 00:34:28,173 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 00:34:28,173 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 00:34:28,173 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 00:34:28,173 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 259
+2016-09-06 00:34:28,177 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 00:34:28,215 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 79153 edits # 569 loaded in 0 seconds.
+2016-09-06 00:34:28,215 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 00:34:28,255 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 64286 saved in 0 seconds.
+2016-09-06 00:34:28,639 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 64286 saved in 0 seconds.
+2016-09-06 00:34:28,990 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473102268000:1473098662966
+2016-09-06 00:34:29,408 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 64286
+2016-09-06 01:34:29,423 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 01:34:30,192 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 64286 bytes.
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 55282 bytes.
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 01:34:30,193 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 312
+2016-09-06 01:34:30,196 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 01:34:30,202 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 55282 edits # 454 loaded in 0 seconds.
+2016-09-06 01:34:30,203 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 01:34:30,284 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 64361 saved in 0 seconds.
+2016-09-06 01:34:30,735 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 64361 saved in 0 seconds.
+2016-09-06 01:34:31,161 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473105870000:1473102269011
+2016-09-06 01:34:31,612 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 64361
+2016-09-06 02:34:31,637 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 02:34:32,489 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 64361 bytes.
+2016-09-06 02:34:32,491 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 48769 bytes.
+2016-09-06 02:34:32,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 02:34:32,491 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 02:34:32,492 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 02:34:32,493 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 312
+2016-09-06 02:34:32,499 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 02:34:32,512 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 48769 edits # 404 loaded in 0 seconds.
+2016-09-06 02:34:32,513 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 02:34:32,553 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 66656 saved in 0 seconds.
+2016-09-06 02:34:32,928 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 66656 saved in 0 seconds.
+2016-09-06 02:34:33,304 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473109472000:1473105871188
+2016-09-06 02:34:33,707 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 66656
+2016-09-06 03:34:33,727 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 03:34:34,734 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 66656 bytes.
+2016-09-06 03:34:34,735 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 694 bytes.
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 03:34:34,736 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 03:34:34,737 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 03:34:34,737 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 03:34:34,738 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 329
+2016-09-06 03:34:34,742 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 03:34:34,742 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 694 edits # 10 loaded in 0 seconds.
+2016-09-06 03:34:34,742 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 03:34:34,781 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 03:34:35,174 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 03:34:35,591 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473113074000:1473109473322
+2016-09-06 03:34:35,993 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 04:34:36,010 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 04:34:36,177 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 04:34:36,178 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 04:34:36,179 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 04:34:36,179 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 04:34:36,179 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 04:34:36,230 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 04:34:36,623 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 04:34:37,209 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473116676000:1473113075623
+2016-09-06 04:34:37,634 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 05:34:37,656 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 05:34:37,792 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 05:34:37,794 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 05:34:37,795 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 05:34:37,796 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 05:34:37,801 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 05:34:37,802 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 05:34:37,802 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 05:34:37,847 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 05:34:38,232 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 05:34:42,310 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473120277000:1473116677231
+2016-09-06 05:34:42,777 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 06:34:42,796 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 06:34:42,949 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 06:34:42,950 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 06:34:42,951 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 06:34:42,952 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 06:34:42,952 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 06:34:42,990 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 06:34:43,391 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 06:34:43,784 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473123882000:1473120282335
+2016-09-06 06:34:44,203 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 07:34:44,223 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 07:34:44,374 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 07:34:44,375 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 07:34:44,377 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 07:34:44,377 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 07:34:44,377 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 07:34:44,420 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 07:34:44,835 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 07:34:45,269 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473127484000:1473123883801
+2016-09-06 07:34:45,678 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 08:34:45,703 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 08:34:45,885 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 08:34:45,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 08:34:45,887 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 08:34:45,889 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 08:34:45,889 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 08:34:45,889 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 08:34:45,934 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 08:34:46,336 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 08:34:47,221 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473131085000:1473127485298
+2016-09-06 08:34:47,622 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 09:34:47,644 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 09:34:47,802 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 09:34:47,803 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 09:34:47,804 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 09:34:47,807 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 09:34:47,807 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 09:34:47,807 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 09:34:47,849 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 09:34:48,250 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 09:34:48,643 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473134687000:1473131087239
+2016-09-06 09:34:49,051 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 10:34:49,068 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 10:34:49,210 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 10:34:49,210 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 10:34:49,211 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 10:34:49,212 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 10:34:49,212 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 10:34:49,212 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 10:34:49,251 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 10:34:49,644 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 10:34:50,036 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473138289000:1473134688663
+2016-09-06 10:34:50,445 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 11:34:50,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 11:34:50,595 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 11:34:50,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 11:34:50,598 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 11:34:50,598 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 11:34:50,598 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 11:34:50,598 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 11:34:50,603 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 11:34:50,603 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 11:34:50,603 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 11:34:50,643 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 11:34:51,053 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 11:34:51,454 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473141890000:1473138290070
+2016-09-06 11:34:51,913 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 12:34:51,931 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 12:34:52,059 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 12:34:52,060 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 12:34:52,061 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 12:34:52,061 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 12:34:52,062 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 12:34:52,062 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 12:34:52,091 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 12:34:52,509 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 12:34:52,927 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473145492000:1473141891468
+2016-09-06 12:34:53,320 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 13:34:53,339 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 13:34:53,497 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 13:34:53,499 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 13:34:53,502 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 13:34:53,502 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 13:34:53,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 13:34:53,536 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 13:34:53,929 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 13:34:54,313 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473149093000:1473145492940
+2016-09-06 13:34:54,740 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 14:34:54,759 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 14:34:54,929 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 14:34:54,930 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 14:34:54,931 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 14:34:54,931 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 14:34:54,931 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 14:34:54,969 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 14:34:55,370 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 14:34:55,763 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473152694000:1473149094331
+2016-09-06 14:34:56,307 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 15:34:56,330 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 15:34:56,480 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 15:34:56,482 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 15:34:56,483 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 15:34:56,483 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 15:34:56,483 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 15:34:56,484 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 15:34:56,488 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 15:34:56,488 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 15:34:56,488 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 15:34:56,527 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 15:34:56,928 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 15:34:57,328 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473156296000:1473152695783
+2016-09-06 15:34:57,771 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 16:34:57,798 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 16:34:58,959 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 16:34:58,960 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 16:34:58,961 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 16:34:58,961 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 16:34:58,964 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 16:34:58,964 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 16:34:58,964 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 16:34:59,007 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 16:34:59,399 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 16:34:59,801 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473159898000:1473156297354
+2016-09-06 16:35:00,209 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 17:35:00,226 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 17:35:00,371 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 17:35:00,373 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2016-09-06 17:35:00,373 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 17:35:00,374 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 17:35:00,393 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 17:35:00,393 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-06 17:35:00,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 17:35:00,435 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 17:35:00,836 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 65426 saved in 0 seconds.
+2016-09-06 17:35:01,246 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473163500000:1473159899824
+2016-09-06 17:35:01,638 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 65426
+2016-09-06 18:00:30,137 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at master/10.129.40.100
+************************************************************/
+2016-09-06 18:00:34,360 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/hdfs/bin/../conf:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-06 18:00:34,423 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-06 18:00:34,425 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-09-06 18:00:34,427 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:131)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:119)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:481)
+2016-09-06 18:00:34,560 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-09-06 18:00:34,583 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-09-06 18:00:34,584 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-09-06 18:00:34,585 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-09-06 18:00:34,585 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-09-06 18:00:34,585 INFO org.mortbay.log: jetty-6.1.14
+2016-09-06 18:00:34,729 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-09-06 18:00:34,729 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-09-06 18:00:34,729 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-09-06 18:00:34,729 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-09-06 18:05:34,887 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 65426 bytes.
+2016-09-06 18:05:34,888 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 9760 bytes.
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 18:05:34,895 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 18:05:34,896 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 18:05:34,897 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 18:05:34,919 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 319
+2016-09-06 18:05:34,933 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 18:05:34,939 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 9760 edits # 87 loaded in 0 seconds.
+2016-09-06 18:05:34,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 18:05:34,980 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 69289 saved in 0 seconds.
+2016-09-06 18:05:35,357 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 69289 saved in 0 seconds.
+2016-09-06 18:05:35,762 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473165334000:1473163501269
+2016-09-06 18:05:36,256 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 69289
+2016-09-06 18:20:19,935 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at master/10.129.40.100
+************************************************************/
+2016-09-06 18:20:24,048 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/hdfs/bin/../conf:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-06 18:20:24,134 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-06 18:20:24,136 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-09-06 18:20:24,138 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:131)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:119)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:481)
+2016-09-06 18:20:24,321 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-09-06 18:20:24,348 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-09-06 18:20:24,350 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-09-06 18:20:24,351 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-09-06 18:20:24,351 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-09-06 18:20:24,351 INFO org.mortbay.log: jetty-6.1.14
+2016-09-06 18:20:24,486 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-09-06 18:20:24,486 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-09-06 18:20:24,486 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-09-06 18:20:24,486 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-09-06 18:25:24,613 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 69289 bytes.
+2016-09-06 18:25:24,616 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 9863 bytes.
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 18:25:24,625 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 18:25:24,626 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 18:25:24,651 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 347
+2016-09-06 18:25:24,666 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 18:25:24,672 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 9863 edits # 88 loaded in 0 seconds.
+2016-09-06 18:25:24,673 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 18:25:24,719 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 70155 saved in 0 seconds.
+2016-09-06 18:25:25,076 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 70155 saved in 0 seconds.
+2016-09-06 18:25:25,449 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473166524000:1473165335825
+2016-09-06 18:25:25,934 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 70155
+2016-09-06 18:30:37,249 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at master/10.129.40.100
+************************************************************/
+2016-09-06 18:30:41,381 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/hdfs/bin/../conf:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/hdfs/bin/../hadoop-hdfs-*.jar:/usr/local/hadoop/hdfs/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-06 18:30:41,442 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-06 18:30:41,444 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-09-06 18:30:41,446 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:131)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:119)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:481)
+2016-09-06 18:30:41,563 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-09-06 18:30:41,584 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-09-06 18:30:41,586 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-09-06 18:30:41,586 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-09-06 18:30:41,586 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-09-06 18:30:41,586 INFO org.mortbay.log: jetty-6.1.14
+2016-09-06 18:30:41,699 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-09-06 18:30:41,699 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-09-06 18:30:41,699 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-09-06 18:30:41,699 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-09-06 18:31:02,993 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at master/10.129.40.100
+************************************************************/
+2016-09-06 18:31:57,644 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../conf:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-06 18:31:57,705 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-06 18:31:57,707 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-09-06 18:31:57,709 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:131)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:119)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:481)
+2016-09-06 18:31:57,825 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-09-06 18:31:57,847 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-09-06 18:31:57,848 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-09-06 18:31:57,849 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-09-06 18:31:57,849 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-09-06 18:31:57,849 INFO org.mortbay.log: jetty-6.1.14
+2016-09-06 18:31:57,965 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-09-06 18:31:57,965 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-09-06 18:31:57,965 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-09-06 18:31:57,965 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-09-06 18:36:58,081 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 67615 bytes.
+2016-09-06 18:36:58,082 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 12070 bytes.
+2016-09-06 18:36:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 18:36:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 18:36:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 18:36:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 18:36:58,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 18:36:58,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 18:36:58,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 18:36:58,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 18:36:58,090 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 18:36:58,109 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 332
+2016-09-06 18:36:58,123 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 18:36:58,129 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 12070 edits # 106 loaded in 0 seconds.
+2016-09-06 18:36:58,130 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 18:36:58,175 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 67281 saved in 0 seconds.
+2016-09-06 18:36:58,548 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 67281 saved in 0 seconds.
+2016-09-06 18:36:58,930 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473167217000:1473166838400
+2016-09-06 18:36:59,358 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 67281
+2016-09-06 19:36:59,384 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 67281 bytes.
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 10557 bytes.
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 19:36:59,495 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 19:36:59,496 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 330
+2016-09-06 19:36:59,512 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 19:36:59,514 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 10557 edits # 87 loaded in 0 seconds.
+2016-09-06 19:36:59,515 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 19:36:59,561 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 70889 saved in 0 seconds.
+2016-09-06 19:36:59,937 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 70889 saved in 0 seconds.
+2016-09-06 19:37:00,370 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473170819000:1473167218978
+2016-09-06 19:37:00,846 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 70889
+2016-09-06 20:37:01,011 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 20:37:01,224 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 70889 bytes.
+2016-09-06 20:37:01,224 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 25555 bytes.
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 20:37:01,225 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 350
+2016-09-06 20:37:01,258 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 3
+2016-09-06 20:37:01,264 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 25555 edits # 183 loaded in 0 seconds.
+2016-09-06 20:37:01,264 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 20:37:01,326 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 72351 saved in 0 seconds.
+2016-09-06 20:37:01,776 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 72351 saved in 0 seconds.
+2016-09-06 20:37:02,187 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473174421000:1473170820405
+2016-09-06 20:37:02,597 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 72351
+2016-09-06 21:37:02,637 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 21:37:02,792 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 72351 bytes.
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 7838 bytes.
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 21:37:02,794 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 21:37:02,795 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 358
+2016-09-06 21:37:02,804 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 21:37:02,806 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 7838 edits # 58 loaded in 0 seconds.
+2016-09-06 21:37:02,806 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 21:37:02,892 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 73435 saved in 0 seconds.
+2016-09-06 21:37:03,296 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 73435 saved in 0 seconds.
+2016-09-06 21:37:03,714 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473178022000:1473174422214
+2016-09-06 21:37:04,123 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 73435
+2016-09-06 22:37:04,157 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 22:37:04,305 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 73435 bytes.
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 8149 bytes.
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 22:37:04,306 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 22:37:04,375 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 362
+2016-09-06 22:37:04,420 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 22:37:04,422 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 8149 edits # 53 loaded in 0 seconds.
+2016-09-06 22:37:04,422 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 22:37:04,532 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 75112 saved in 0 seconds.
+2016-09-06 22:37:05,006 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 75112 saved in 0 seconds.
+2016-09-06 22:37:05,697 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473181624000:1473178023739
+2016-09-06 22:37:06,129 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 75112
+2016-09-06 23:21:36,354 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down SecondaryNameNode at master/10.129.40.100
+************************************************************/
+2016-09-06 23:21:40,622 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting SecondaryNameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../conf:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-06 23:21:40,683 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-06 23:21:40,685 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=SecondaryNameNode, sessionId=null
+2016-09-06 23:21:40,686 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.initialize(SecondaryNameNode.java:131)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.<init>(SecondaryNameNode.java:119)
+	at org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode.main(SecondaryNameNode.java:481)
+2016-09-06 23:21:40,802 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-09-06 23:21:40,824 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-09-06 23:21:40,825 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50090
+2016-09-06 23:21:40,826 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50090 webServer.getConnectors()[0].getLocalPort() returned 50090
+2016-09-06 23:21:40,826 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50090
+2016-09-06 23:21:40,826 INFO org.mortbay.log: jetty-6.1.14
+2016-09-06 23:21:40,985 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50090
+2016-09-06 23:21:40,985 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Secondary Web-server up at: 0.0.0.0:50090
+2016-09-06 23:21:40,985 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint Period   :3600 secs (60 min)
+2016-09-06 23:21:40,985 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Log Size Trigger    :67108864 bytes (65536 KB)
+2016-09-06 23:26:41,166 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 75235 bytes.
+2016-09-06 23:26:41,168 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4654 bytes.
+2016-09-06 23:26:41,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-06 23:26:41,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-06 23:26:41,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-06 23:26:41,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-06 23:26:41,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-06 23:26:41,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-06 23:26:41,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-06 23:26:41,175 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-06 23:26:41,176 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-06 23:26:41,196 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 368
+2016-09-06 23:26:41,222 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-06 23:26:41,226 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/namesecondary/current/edits of size 4654 edits # 40 loaded in 0 seconds.
+2016-09-06 23:26:41,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-06 23:26:41,269 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 76662 saved in 0 seconds.
+2016-09-06 23:26:41,627 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 76662 saved in 0 seconds.
+2016-09-06 23:26:41,983 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL master:50070putimage=1&port=50090&machine=10.129.40.100&token=-24:1368787595:0:1473184601000:1473184298180
+2016-09-06 23:26:42,443 WARN org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 76662

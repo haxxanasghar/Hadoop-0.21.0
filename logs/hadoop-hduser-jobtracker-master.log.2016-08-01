@@ -1,0 +1,499 @@
+2016-08-01 12:54:56,502 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/../hdfs/conf:/usr/local/hadoop/bin/../hdfs/hadoop-hdfs-*.jar:/usr/local/hadoop/bin/../hdfs/lib/*.jar:/usr/local/hadoop/mapred/bin/../conf:/usr/local/hadoop/mapred/bin/../hadoop-mapred-*.jar:/usr/local/hadoop/mapred/bin/../lib/*.jar:/usr/local/hadoop/mapred/bin/../hadoop-mapred-*.jar:/usr/local/hadoop/mapred/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-08-01 12:54:56,576 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-08-01 12:54:56,579 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as hduser and supergroup as supergroup
+2016-08-01 12:54:56,579 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-08-01 12:54:56,580 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2016-08-01 12:54:56,580 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-08-01 12:54:56,580 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2016-08-01 12:54:56,581 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-08-01 12:54:56,596 INFO org.apache.hadoop.mapred.QueueManager: AllQueues : {default=default}; LeafQueues : {default=default}
+2016-08-01 12:54:56,606 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2016-08-01 12:54:56,612 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=8021
+2016-08-01 12:54:56,614 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=JobTracker, port=8021
+2016-08-01 12:54:56,633 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-08-01 12:54:56,656 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-08-01 12:54:56,659 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: History log directory is file:////usr/local/hadoop/bin/../logs/history
+2016-08-01 12:54:56,699 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2016-08-01 12:54:56,700 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2016-08-01 12:54:56,700 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2016-08-01 12:54:56,700 INFO org.mortbay.log: jetty-6.1.14
+2016-08-01 12:54:56,819 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2016-08-01 12:54:56,820 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-08-01 12:54:56,820 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 8021
+2016-08-01 12:54:56,820 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2016-08-01 12:54:56,861 WARN org.apache.hadoop.conf.Configuration: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2016-08-01 12:54:56,929 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 12:54:56,931 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 81 has reached the threshold 0.9990 of total blocks 81. Safe mode will be turned off automatically in 24 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 12:55:06,934 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 12:55:06,935 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 81 has reached the threshold 0.9990 of total blocks 81. Safe mode will be turned off automatically in 14 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 12:55:16,938 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 12:55:16,939 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 81 has reached the threshold 0.9990 of total blocks 81. Safe mode will be turned off automatically in 4 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 12:55:26,941 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 12:55:27,080 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Inited the done directory to file:/usr/local/hadoop/logs/history/done
+2016-08-01 12:55:27,080 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Job History Cleaner Thread started. MaxAge is 604800000 ms(7.0 days), Cleanup Frequency is 86400000 ms (1.0 days)
+2016-08-01 12:55:27,081 WARN org.apache.hadoop.conf.Configuration: topology.node.switch.mapping.impl is deprecated. Instead, use net.topology.node.switch.mapping.impl
+2016-08-01 12:55:27,083 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store activated/configured with retain-time : 3600000 , job-info-dir : /jobtracker/jobsInfo
+2016-08-01 12:55:27,209 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251233_0001_hduser.201607251242.old
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0002_conf.xml
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251045_0001_hduser
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251233_0001_conf.xml.201607251242.old
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251045_0001_conf.xml
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251242_0002_hduser
+2016-08-01 12:55:27,210 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251005_0002_hduser
+2016-08-01 12:55:27,211 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607251005_0002_conf.xml
+2016-08-01 12:55:27,252 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2016-08-01 12:55:27,263 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2016-08-01 12:55:27,263 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2016-08-01 12:55:27,263 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-08-01 12:55:27,263 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2016-08-01 12:55:27,263 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2016-08-01 12:55:27,264 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8021: starting
+2016-08-01 12:55:27,265 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8021: starting
+2016-08-01 12:55:27,265 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8021: starting
+2016-08-01 12:55:27,265 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8021: starting
+2016-08-01 12:55:27,265 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8021: starting
+2016-08-01 12:55:27,265 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8021: starting
+2016-08-01 12:55:27,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8021: starting
+2016-08-01 12:55:27,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8021: starting
+2016-08-01 12:55:27,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8021: starting
+2016-08-01 12:55:27,266 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2016-08-01 12:55:27,266 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8021: starting
+2016-08-01 12:55:27,268 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8021: starting
+2016-08-01 12:55:27,271 WARN org.apache.hadoop.mapred.JobTracker: Serious problem, cannot find record of 'previous' heartbeat for 'tracker_slave4:127.0.0.1/127.0.0.1:43137'; reinitializing the tasktracker
+2016-08-01 12:55:27,273 WARN org.apache.hadoop.mapred.JobTracker: Serious problem, cannot find record of 'previous' heartbeat for 'tracker_slave5:127.0.0.1/127.0.0.1:36163'; reinitializing the tasktracker
+2016-08-01 12:55:27,274 WARN org.apache.hadoop.mapred.JobTracker: Serious problem, cannot find record of 'previous' heartbeat for 'tracker_slave2:127.0.0.1/127.0.0.1:34093'; reinitializing the tasktracker
+2016-08-01 12:55:27,274 WARN org.apache.hadoop.mapred.JobTracker: Serious problem, cannot find record of 'previous' heartbeat for 'tracker_slave1:127.0.0.1/127.0.0.1:44466'; reinitializing the tasktracker
+2016-08-01 12:55:27,295 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave2
+2016-08-01 12:55:27,296 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave2:127.0.0.1/127.0.0.1:34093 to host slave2
+2016-08-01 12:55:27,296 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave1
+2016-08-01 12:55:27,297 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave1:127.0.0.1/127.0.0.1:44466 to host slave1
+2016-08-01 12:55:27,297 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave5
+2016-08-01 12:55:27,297 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave5:127.0.0.1/127.0.0.1:36163 to host slave5
+2016-08-01 12:55:27,304 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave4
+2016-08-01 12:55:27,304 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave4:127.0.0.1/127.0.0.1:43137 to host slave4
+2016-08-01 12:55:42,694 INFO org.apache.hadoop.mapred.JSPUtil: Loading Job History file job_201607261728_0002.   Cache size is 0
+2016-08-01 12:59:06,288 WARN org.apache.hadoop.conf.Configuration: mapred.committer.job.setup.cleanup.needed is deprecated. Instead, use mapreduce.job.committer.setup.cleanup.needed
+2016-08-01 12:59:06,381 INFO org.apache.hadoop.mapred.JobTracker: Job job_201608011254_0001 added successfully for user 'hduser' to queue 'default'
+2016-08-01 12:59:06,382 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201608011254_0001
+2016-08-01 12:59:06,382 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201608011254_0001
+2016-08-01 12:59:06,418 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: SetupWriter, creating file file:/usr/local/hadoop/logs/history/job_201608011254_0001_hduser
+2016-08-01 12:59:06,453 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: LogDirConfPath is file:/usr/local/hadoop/logs/history/job_201608011254_0001_conf.xml
+2016-08-01 12:59:06,516 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system/job_201608011254_0001/jobToken
+2016-08-01 12:59:06,524 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201608011254_0001 = 1000000000. Number of splits = 16
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000000 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000001 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000002 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000003 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000004 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000005 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000006 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000006 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000006 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000007 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000007 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000007 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000008 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000008 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000008 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,525 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000009 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000009 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000009 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000010 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000010 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000010 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000011 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000011 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000011 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000012 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000012 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000012 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000013 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000013 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000013 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000014 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000014 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000014 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000015 has split on node:/default-rack/slave5
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000015 has split on node:/default-rack/slave1
+2016-08-01 12:59:06,526 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0001_m_000015 has split on node:/default-rack/slave4
+2016-08-01 12:59:06,527 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201608011254_0001 initialized successfully with 16 map tasks and 1 reduce tasks.
+2016-08-01 12:59:09,413 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201608011254_0001_m_000017_0' to tip task_201608011254_0001_m_000017, for tracker 'tracker_slave1:127.0.0.1/127.0.0.1:44466'
+2016-08-01 12:59:17,527 INFO org.apache.hadoop.mapred.JobTracker: Job job_201608011254_0002 added successfully for user 'hduser' to queue 'default'
+2016-08-01 12:59:17,527 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201608011254_0002
+2016-08-01 12:59:17,527 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201608011254_0002
+2016-08-01 12:59:17,531 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: SetupWriter, creating file file:/usr/local/hadoop/logs/history/job_201608011254_0002_hduser
+2016-08-01 12:59:17,534 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: LogDirConfPath is file:/usr/local/hadoop/logs/history/job_201608011254_0002_conf.xml
+2016-08-01 12:59:17,610 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system/job_201608011254_0002/jobToken
+2016-08-01 12:59:17,613 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201608011254_0002 = 1000000000. Number of splits = 16
+2016-08-01 12:59:17,613 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000000 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,613 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000001 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000002 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000003 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000004 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000005 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000006 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000006 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000006 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000007 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000007 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000007 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000008 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000008 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000008 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000009 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000009 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000009 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000010 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000010 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000010 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000011 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000011 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000011 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000012 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,614 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000012 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000012 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000013 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000013 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000013 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000014 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000014 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000014 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000015 has split on node:/default-rack/slave5
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000015 has split on node:/default-rack/slave1
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201608011254_0002_m_000015 has split on node:/default-rack/slave4
+2016-08-01 12:59:17,615 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201608011254_0002 initialized successfully with 16 map tasks and 1 reduce tasks.
+2016-08-01 12:59:18,419 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201608011254_0002_m_000017_0' to tip task_201608011254_0002_m_000017, for tracker 'tracker_slave2:127.0.0.1/127.0.0.1:34093'
+2016-08-01 13:02:07,263 INFO org.apache.hadoop.mapred.JobTracker: attempt_201608011254_0001_m_000017_0 is 177849 ms debug.
+2016-08-01 13:02:10,415 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at master/10.129.40.100
+************************************************************/
+2016-08-01 13:02:19,739 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/../hdfs/conf:/usr/local/hadoop/bin/../hdfs/hadoop-hdfs-*.jar:/usr/local/hadoop/bin/../hdfs/lib/*.jar:/usr/local/hadoop/mapred/bin/../conf:/usr/local/hadoop/mapred/bin/../hadoop-mapred-*.jar:/usr/local/hadoop/mapred/bin/../lib/*.jar:/usr/local/hadoop/mapred/bin/../hadoop-mapred-*.jar:/usr/local/hadoop/mapred/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-08-01 13:02:19,803 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-08-01 13:02:19,806 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as hduser and supergroup as supergroup
+2016-08-01 13:02:19,806 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-08-01 13:02:19,807 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2016-08-01 13:02:19,807 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-08-01 13:02:19,807 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2016-08-01 13:02:19,807 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-08-01 13:02:19,813 INFO org.apache.hadoop.mapred.QueueManager: AllQueues : {default=default}; LeafQueues : {default=default}
+2016-08-01 13:02:19,823 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2016-08-01 13:02:19,829 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=8021
+2016-08-01 13:02:19,831 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=JobTracker, port=8021
+2016-08-01 13:02:19,850 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-08-01 13:02:19,872 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-08-01 13:02:19,874 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: History log directory is file:////usr/local/hadoop/bin/../logs/history
+2016-08-01 13:02:19,882 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2016-08-01 13:02:19,882 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2016-08-01 13:02:19,882 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2016-08-01 13:02:19,883 INFO org.mortbay.log: jetty-6.1.14
+2016-08-01 13:02:20,003 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2016-08-01 13:02:20,004 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-08-01 13:02:20,005 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 8021
+2016-08-01 13:02:20,005 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2016-08-01 13:02:20,029 WARN org.apache.hadoop.conf.Configuration: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2016-08-01 13:02:20,096 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 13:02:20,099 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 93 has reached the threshold 0.9990 of total blocks 93. Safe mode will be turned off automatically in 27 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 13:02:30,103 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 13:02:30,104 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 93 has reached the threshold 0.9990 of total blocks 93. Safe mode will be turned off automatically in 17 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 13:02:40,107 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 13:02:40,108 INFO org.apache.hadoop.mapred.JobTracker: problem cleaning system directory: hdfs://master:8020/usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system
+org.apache.hadoop.hdfs.server.namenode.SafeModeException: Cannot delete /usr/local/hadoop_tmp/hdfs/hadoopdata/mapred/system. Name node is in safe mode.
+The reported blocks 93 has reached the threshold 0.9990 of total blocks 93. Safe mode will be turned off automatically in 7 seconds.
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.deleteInternal(FSNamesystem.java:1804)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.delete(FSNamesystem.java:1780)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.delete(NameNode.java:821)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.call(WritableRpcEngine.java:342)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1350)
+	at org.apache.hadoop.ipc.Server$Handler$1.run(Server.java:1346)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:742)
+	at org.apache.hadoop.ipc.Server$Handler.run(Server.java:1344)
+
+	at org.apache.hadoop.ipc.Client.call(Client.java:905)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Invoker.invoke(WritableRpcEngine.java:198)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:82)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:59)
+	at com.sun.proxy.$Proxy5.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:810)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:296)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1563)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+2016-08-01 13:02:50,110 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-08-01 13:02:50,202 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Inited the done directory to file:/usr/local/hadoop/logs/history/done
+2016-08-01 13:02:50,203 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving log file from last run: file:/usr/local/hadoop/logs/history/job_201608011254_0001_conf.xml
+2016-08-01 13:02:50,203 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving file:/usr/local/hadoop/logs/history/job_201608011254_0001_conf.xml to file:/usr/local/hadoop/logs/history/done/job_201608011254_0001_conf.xml.201608011302.old
+2016-08-01 13:02:50,216 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving log file from last run: file:/usr/local/hadoop/logs/history/job_201608011254_0002_conf.xml
+2016-08-01 13:02:50,216 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving file:/usr/local/hadoop/logs/history/job_201608011254_0002_conf.xml to file:/usr/local/hadoop/logs/history/done/job_201608011254_0002_conf.xml.201608011302.old
+2016-08-01 13:02:50,219 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving log file from last run: file:/usr/local/hadoop/logs/history/job_201608011254_0002_hduser
+2016-08-01 13:02:50,219 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving file:/usr/local/hadoop/logs/history/job_201608011254_0002_hduser to file:/usr/local/hadoop/logs/history/done/job_201608011254_0002_hduser.201608011302.old
+2016-08-01 13:02:50,220 WARN org.apache.hadoop.fs.FSInputChecker: Problem opening checksum file: file:/usr/local/hadoop/logs/history/job_201608011254_0002_hduser.  Ignoring exception: java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:144)
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:310)
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:482)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:242)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:216)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:167)
+	at org.apache.hadoop.fs.LocalFileSystem.copyFromLocalFile(LocalFileSystem.java:60)
+	at org.apache.hadoop.fs.FileSystem.moveFromLocalFile(FileSystem.java:1482)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.moveToDoneNow(JobHistory.java:348)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.moveOldFiles(JobHistory.java:390)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.initDone(JobHistory.java:165)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1591)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+
+2016-08-01 13:02:50,222 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving log file from last run: file:/usr/local/hadoop/logs/history/job_201608011254_0001_hduser
+2016-08-01 13:02:50,222 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Moving file:/usr/local/hadoop/logs/history/job_201608011254_0001_hduser to file:/usr/local/hadoop/logs/history/done/job_201608011254_0001_hduser.201608011302.old
+2016-08-01 13:02:50,222 WARN org.apache.hadoop.fs.FSInputChecker: Problem opening checksum file: file:/usr/local/hadoop/logs/history/job_201608011254_0001_hduser.  Ignoring exception: java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:197)
+	at java.io.DataInputStream.readFully(DataInputStream.java:169)
+	at org.apache.hadoop.fs.ChecksumFileSystem$ChecksumFSInputChecker.<init>(ChecksumFileSystem.java:144)
+	at org.apache.hadoop.fs.ChecksumFileSystem.open(ChecksumFileSystem.java:310)
+	at org.apache.hadoop.fs.FileSystem.open(FileSystem.java:482)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:242)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:216)
+	at org.apache.hadoop.fs.FileUtil.copy(FileUtil.java:167)
+	at org.apache.hadoop.fs.LocalFileSystem.copyFromLocalFile(LocalFileSystem.java:60)
+	at org.apache.hadoop.fs.FileSystem.moveFromLocalFile(FileSystem.java:1482)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.moveToDoneNow(JobHistory.java:348)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.moveOldFiles(JobHistory.java:390)
+	at org.apache.hadoop.mapreduce.jobhistory.JobHistory.initDone(JobHistory.java:165)
+	at org.apache.hadoop.mapred.JobTracker.<init>(JobTracker.java:1591)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:258)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:250)
+	at org.apache.hadoop.mapred.JobTracker.startTracker(JobTracker.java:245)
+	at org.apache.hadoop.mapred.JobTracker.main(JobTracker.java:4164)
+
+2016-08-01 13:02:50,229 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Job History Cleaner Thread started. MaxAge is 604800000 ms(7.0 days), Cleanup Frequency is 86400000 ms (1.0 days)
+2016-08-01 13:02:50,229 WARN org.apache.hadoop.conf.Configuration: topology.node.switch.mapping.impl is deprecated. Instead, use net.topology.node.switch.mapping.impl
+2016-08-01 13:02:50,232 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store activated/configured with retain-time : 3600000 , job-info-dir : /jobtracker/jobsInfo
+2016-08-01 13:02:50,331 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2016-08-01 13:02:50,338 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2016-08-01 13:02:50,338 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2016-08-01 13:02:50,338 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-08-01 13:02:50,339 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2016-08-01 13:02:50,339 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2016-08-01 13:02:50,349 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 8021: starting
+2016-08-01 13:02:50,350 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 8021: starting
+2016-08-01 13:02:50,350 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 8021: starting
+2016-08-01 13:02:50,350 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 8021: starting
+2016-08-01 13:02:50,349 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8021: starting
+2016-08-01 13:02:50,357 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 8021: starting
+2016-08-01 13:02:50,357 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 8021: starting
+2016-08-01 13:02:50,357 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 8021: starting
+2016-08-01 13:02:50,357 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 8021: starting
+2016-08-01 13:02:50,358 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 8021: starting
+2016-08-01 13:02:50,365 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2016-08-01 13:02:50,365 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 8021: starting
+2016-08-01 13:02:50,454 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave2
+2016-08-01 13:02:50,455 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave2:127.0.0.1/127.0.0.1:34687 to host slave2
+2016-08-01 13:02:50,474 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave1
+2016-08-01 13:02:50,474 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave1:127.0.0.1/127.0.0.1:34717 to host slave1
+2016-08-01 13:02:50,475 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave5
+2016-08-01 13:02:50,475 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave5:127.0.0.1/127.0.0.1:44069 to host slave5
+2016-08-01 13:02:50,533 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/slave4
+2016-08-01 13:02:50,534 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_slave4:127.0.0.1/127.0.0.1:41999 to host slave4

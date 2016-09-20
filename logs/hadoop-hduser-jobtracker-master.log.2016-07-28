@@ -1,0 +1,3 @@
+2016-07-28 17:28:27,425 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-07-28 17:28:53,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607201811_0001_conf.xml
+2016-07-28 17:28:53,307 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Deleting old history file : file:/usr/local/hadoop/logs/history/done/job_201607201811_0001_hduser

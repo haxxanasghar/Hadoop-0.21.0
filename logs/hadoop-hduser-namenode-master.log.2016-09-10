@@ -1,0 +1,324 @@
+2016-09-10 00:39:52,130 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 00:44:58,708 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 00:44:59,596 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 01:39:52,132 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 01:45:00,101 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 01:45:01,006 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 02:39:52,133 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 02:45:01,520 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 02:45:02,358 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 03:39:52,134 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 03:45:02,880 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 03:45:03,744 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 03:47:43,952 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3395126369060701247 to add as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 04:39:52,135 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 04:45:04,246 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 04:45:05,117 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 05:39:52,136 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 05:45:05,593 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 05:45:06,439 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 06:32:04,689 INFO org.apache.hadoop.hdfs.StateChange: *DIR* NameNode.reportBadBlocks
+2016-09-10 06:32:04,689 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: blk_2434991129755416384 added as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 06:39:52,137 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 06:45:06,975 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 06:45:07,824 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 06:52:55,795 INFO org.apache.hadoop.hdfs.StateChange: *DIR* NameNode.reportBadBlocks
+2016-09-10 06:52:55,795 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: blk_1707585693919657425 added as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 07:21:33,940 INFO org.apache.hadoop.hdfs.StateChange: *DIR* NameNode.reportBadBlocks
+2016-09-10 07:21:33,941 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: blk_4584013282473726312 added as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 07:39:52,138 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 07:45:08,281 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 07:45:09,112 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 08:37:51,321 INFO org.apache.hadoop.hdfs.StateChange: *DIR* NameNode.reportBadBlocks
+2016-09-10 08:37:51,321 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: blk_3786184960278206137 added as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 08:39:52,139 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 08:45:09,591 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 08:45:10,405 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 09:39:52,140 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 09:45:10,858 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 09:45:11,688 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 09:47:44,698 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3395126369060701247 to add as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 09:53:10,703 INFO org.apache.hadoop.hdfs.StateChange: *DIR* NameNode.reportBadBlocks
+2016-09-10 09:53:10,703 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: blk_-1271743364420578437 added as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 10:39:52,142 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 10:45:12,218 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 10:45:13,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 11:39:52,143 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 11:45:13,608 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 11:45:14,464 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 12:39:52,144 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 12:45:14,938 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 12:45:15,793 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 13:39:52,145 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 13:45:16,300 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 13:45:17,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 14:39:52,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 14:45:17,644 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 14:45:18,457 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 15:39:52,147 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 15:45:18,937 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 15:45:19,816 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 15:47:46,419 INFO org.apache.hadoop.hdfs.StateChange: BLOCK NameSystem.addToCorruptReplicasMap: duplicate requested for blk_3395126369060701247 to add as corrupt on 10.129.40.103:50010 by /10.129.40.103
+2016-09-10 16:39:52,148 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 16:45:20,290 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 16:45:21,129 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 17:39:23,225 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.103:50010
+2016-09-10 17:39:23,226 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.103:50010
+2016-09-10 17:39:52,149 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 17:45:21,597 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 17:45:22,427 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 18:39:52,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 18:45:22,962 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 18:45:23,850 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 19:39:52,151 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 19:45:26,159 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 19:45:27,978 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 20:04:23,456 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.104:50010
+2016-09-10 20:04:23,473 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.104:50010
+2016-09-10 20:39:52,152 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 20:45:28,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 20:45:30,843 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 21:39:52,172 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 21:45:33,057 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 21:45:35,886 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 22:39:52,276 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-09-10 22:45:38,185 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-09-10 22:45:39,882 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-09-10 23:56:01,579 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at master/10.129.40.100
+************************************************************/
+2016-09-10 23:56:08,180 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../conf:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-10 23:56:08,400 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-10 23:56:08,416 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2016-09-10 23:56:08,444 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics.<init>(NameNodeMetrics.java:103)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initMetrics(NameNode.java:199)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:302)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:56:08,454 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context dfs
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics.<init>(NameNodeMetrics.java:109)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initMetrics(NameNode.java:199)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:302)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:56:08,454 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-09-10 23:56:08,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 23:56:08,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 23:56:08,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 23:56:08,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 23:56:08,471 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 23:56:08,484 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 23:56:08,484 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 23:56:08,484 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 23:56:08,485 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 23:56:08,566 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context dfs
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics.<init>(FSNamesystemMetrics.java:76)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.registerMBean(FSNamesystem.java:4092)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:287)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:270)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.loadNamesystem(NameNode.java:271)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:303)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:56:08,566 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-09-10 23:56:08,567 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2016-09-10 23:56:08,642 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 23:56:08,668 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 23:56:08,668 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 loaded in 0 seconds.
+2016-09-10 23:56:08,668 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 23:56:08,670 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 202 msecs
+2016-09-10 23:56:08,671 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-09-10 23:56:08,691 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 23:56:08,736 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.BindException: Problem binding to master/10.129.40.100:8020 : Cannot assign requested address
+	at org.apache.hadoop.ipc.Server.bind(Server.java:218)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:289)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1443)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:343)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.<init>(WritableRpcEngine.java:324)
+	at org.apache.hadoop.ipc.WritableRpcEngine.getServer(WritableRpcEngine.java:284)
+	at org.apache.hadoop.ipc.WritableRpcEngine.getServer(WritableRpcEngine.java:45)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:331)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:305)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+Caused by: java.net.BindException: Cannot assign requested address
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.hadoop.ipc.Server.bind(Server.java:216)
+	... 12 more
+
+2016-09-10 23:56:08,736 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at master/10.129.40.100
+************************************************************/
+2016-09-10 23:58:07,670 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = master/10.129.40.100
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /usr/local/hadoop/bin/../conf:/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-common-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-common-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-mapred-examples-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-mapred-tools-0.21.0.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../lib/jsp-2.1/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../conf:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar:/usr/local/hadoop/bin/../mapred/conf:/usr/local/hadoop/bin/../mapred/hadoop-mapred-*.jar:/usr/local/hadoop/bin/../mapred/lib/*.jar:/usr/local/hadoop/bin/..:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-0.21.0-sources.jar:/usr/local/hadoop/bin/../hadoop-hdfs-ant-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0.jar:/usr/local/hadoop/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/usr/local/hadoop/bin/../lib/ant-1.6.5.jar:/usr/local/hadoop/bin/../lib/asm-3.2.jar:/usr/local/hadoop/bin/../lib/aspectjrt-1.6.5.jar:/usr/local/hadoop/bin/../lib/aspectjtools-1.6.5.jar:/usr/local/hadoop/bin/../lib/avro-1.3.2.jar:/usr/local/hadoop/bin/../lib/commons-cli-1.2.jar:/usr/local/hadoop/bin/../lib/commons-codec-1.4.jar:/usr/local/hadoop/bin/../lib/commons-el-1.0.jar:/usr/local/hadoop/bin/../lib/commons-httpclient-3.1.jar:/usr/local/hadoop/bin/../lib/commons-lang-2.5.jar:/usr/local/hadoop/bin/../lib/commons-logging-1.1.1.jar:/usr/local/hadoop/bin/../lib/commons-logging-api-1.1.jar:/usr/local/hadoop/bin/../lib/commons-net-1.4.1.jar:/usr/local/hadoop/bin/../lib/core-3.1.1.jar:/usr/local/hadoop/bin/../lib/ftplet-api-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-core-1.0.0.jar:/usr/local/hadoop/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/usr/local/hadoop/bin/../lib/hsqldb-1.8.0.10.jar:/usr/local/hadoop/bin/../lib/jackson-core-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jackson-mapper-asl-1.4.2.jar:/usr/local/hadoop/bin/../lib/jasper-compiler-5.5.12.jar:/usr/local/hadoop/bin/../lib/jasper-runtime-5.5.12.jar:/usr/local/hadoop/bin/../lib/jdiff-1.0.9.jar:/usr/local/hadoop/bin/../lib/jets3t-0.7.1.jar:/usr/local/hadoop/bin/../lib/jetty-6.1.14.jar:/usr/local/hadoop/bin/../lib/jetty-util-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/jsp-api-2.1-6.1.14.jar:/usr/local/hadoop/bin/../lib/junit-4.8.1.jar:/usr/local/hadoop/bin/../lib/kfs-0.3.jar:/usr/local/hadoop/bin/../lib/log4j-1.2.15.jar:/usr/local/hadoop/bin/../lib/mina-core-2.0.0-M5.jar:/usr/local/hadoop/bin/../lib/mockito-all-1.8.2.jar:/usr/local/hadoop/bin/../lib/oro-2.0.8.jar:/usr/local/hadoop/bin/../lib/paranamer-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-ant-2.2.jar:/usr/local/hadoop/bin/../lib/paranamer-generator-2.2.jar:/usr/local/hadoop/bin/../lib/qdox-1.10.1.jar:/usr/local/hadoop/bin/../lib/servlet-api-2.5-6.1.14.jar:/usr/local/hadoop/bin/../lib/slf4j-api-1.5.11.jar:/usr/local/hadoop/bin/../lib/slf4j-log4j12-1.5.11.jar:/usr/local/hadoop/bin/../lib/xmlenc-0.52.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-09-10 23:58:07,735 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-09-10 23:58:07,741 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=NameNode, sessionId=null
+2016-09-10 23:58:07,743 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context jvm
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.<init>(JvmMetrics.java:86)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:78)
+	at org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:65)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics.<init>(NameNodeMetrics.java:103)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initMetrics(NameNode.java:199)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:302)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:58:07,747 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context dfs
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics.<init>(NameNodeMetrics.java:109)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initMetrics(NameNode.java:199)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:302)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:58:07,748 INFO org.apache.hadoop.hdfs.server.namenode.metrics.NameNodeMetrics: Initializing NameNodeMeterics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-09-10 23:58:07,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: defaultReplication = 3
+2016-09-10 23:58:07,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplication = 512
+2016-09-10 23:58:07,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: minReplication = 1
+2016-09-10 23:58:07,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: maxReplicationStreams = 2
+2016-09-10 23:58:07,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: shouldCheckForEnoughRacks = false
+2016-09-10 23:58:07,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=hduser
+2016-09-10 23:58:07,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2016-09-10 23:58:07,767 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=true
+2016-09-10 23:58:07,769 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2016-09-10 23:58:07,787 ERROR org.apache.hadoop.metrics.MetricsUtil: Unable to create metrics context dfs
+java.lang.ClassNotFoundException: org.apache.hadoop.metrics.ganglia.GangliaContext31
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at org.apache.hadoop.metrics.ContextFactory.getContext(ContextFactory.java:139)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:60)
+	at org.apache.hadoop.metrics.MetricsUtil.getContext(MetricsUtil.java:49)
+	at org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics.<init>(FSNamesystemMetrics.java:76)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.registerMBean(FSNamesystem.java:4092)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.initialize(FSNamesystem.java:287)
+	at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.<init>(FSNamesystem.java:270)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.loadNamesystem(NameNode.java:271)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:303)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+2016-09-10 23:58:07,788 INFO org.apache.hadoop.hdfs.server.namenode.metrics.FSNamesystemMetrics: Initializing FSNamesystemMetrics using context object:org.apache.hadoop.metrics.spi.NullContext
+2016-09-10 23:58:07,788 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStatusMBean
+2016-09-10 23:58:07,803 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 376
+2016-09-10 23:58:07,820 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2016-09-10 23:58:07,820 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 79196 loaded in 0 seconds.
+2016-09-10 23:58:07,821 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /usr/local/hadoop_tmp/hdfs/hadoopdata/dfs/name/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2016-09-10 23:58:07,822 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 61 msecs
+2016-09-10 23:58:07,825 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-09-10 23:58:07,835 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2016-09-10 23:58:07,892 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.BindException: Problem binding to master/10.129.40.100:8020 : Cannot assign requested address
+	at org.apache.hadoop.ipc.Server.bind(Server.java:218)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:289)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1443)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:343)
+	at org.apache.hadoop.ipc.WritableRpcEngine$Server.<init>(WritableRpcEngine.java:324)
+	at org.apache.hadoop.ipc.WritableRpcEngine.getServer(WritableRpcEngine.java:284)
+	at org.apache.hadoop.ipc.WritableRpcEngine.getServer(WritableRpcEngine.java:45)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:331)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:305)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:433)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:421)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1359)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1368)
+Caused by: java.net.BindException: Cannot assign requested address
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.hadoop.ipc.Server.bind(Server.java:216)
+	... 12 more
+
+2016-09-10 23:58:07,892 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at master/10.129.40.100
+************************************************************/

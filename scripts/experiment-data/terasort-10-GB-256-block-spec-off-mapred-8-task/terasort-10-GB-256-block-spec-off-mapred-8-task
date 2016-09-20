@@ -1,0 +1,10 @@
+09/18/16 03:05:36
+Spent 90ms computing base-splits.
+Spent 2ms computing TeraScheduler splits.
+Computing input splits took 93ms
+Sampling 10 splits of 40
+Making 15 from 100000 sampled records
+Computing parititions took 386ms
+Spent 485ms computing partitions.
+job_201609180249_0002
+09/18/16 03:11:11

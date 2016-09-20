@@ -1,0 +1,6 @@
+DEPRECATED: Use of this script to execute mapred command is deprecated.
+Instead use the mapred command for it.
+
+Total jobs:1
+JobId	State	StartTime	UserName	Priority	SchedulingInfo
+job_201609210147_0001	RUNNING	1474402680615	null	NORMAL	NA

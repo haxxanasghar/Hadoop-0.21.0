@@ -1,0 +1,407 @@
+2016-08-06 00:02:51,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 00:10:54,692 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 00:10:55,608 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 01:02:51,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 01:10:56,071 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 01:10:56,919 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 02:02:51,907 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 02:10:57,407 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 02:10:58,581 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 03:02:51,909 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 03:10:59,112 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 03:11:00,016 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 04:02:51,911 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 04:11:00,521 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 04:11:01,487 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 05:02:51,912 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 05:11:01,920 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 05:11:03,038 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 06:02:51,913 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 06:11:03,701 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 06:11:05,114 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 07:02:51,923 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 07:11:05,825 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 07:11:06,694 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 08:02:51,954 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 08:11:07,250 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 08:11:08,884 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 08:12:30,416 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.102:50010
+2016-08-06 08:12:30,941 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.102:50010
+2016-08-06 08:12:31,092 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.104:50010 to replicate blk_-4625630045396302418_1446 to datanode(s) 10.129.40.101:50010
+2016-08-06 08:12:31,110 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to replicate blk_-3170665534613821811_1445 to datanode(s) 10.129.40.101:50010
+2016-08-06 08:12:34,110 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.104:50010 to replicate blk_835056271904504803_1401 to datanode(s) 10.129.40.105:50010
+2016-08-06 08:12:34,139 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_2261179000794689799_1408 to datanode(s) 10.129.40.105:50010
+2016-08-06 08:12:34,139 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_2871393603441820006_1409 to datanode(s) 10.129.40.105:50010
+2016-08-06 08:12:34,139 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to replicate blk_8989767674399518519_1439 to datanode(s) 10.129.40.104:50010
+2016-08-06 08:17:30,964 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.105:50010
+2016-08-06 08:17:30,966 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.105:50010
+2016-08-06 08:17:30,966 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.104:50010
+2016-08-06 08:17:30,969 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.104:50010
+2016-08-06 08:19:09,401 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: readAndProcess threw exception java.io.IOException: No route to host. Count of bytes read: 0
+java.io.IOException: No route to host
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.ipc.Server.channelRead(Server.java:1679)
+	at org.apache.hadoop.ipc.Server.access$2600(Server.java:94)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1060)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:525)
+	at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:332)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-06 08:20:13,600 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: readAndProcess threw exception java.io.IOException: No route to host. Count of bytes read: 0
+java.io.IOException: No route to host
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.ipc.Server.channelRead(Server.java:1679)
+	at org.apache.hadoop.ipc.Server.access$2600(Server.java:94)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1060)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:525)
+	at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:332)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-06 08:21:06,069 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: readAndProcess threw exception java.io.IOException: No route to host. Count of bytes read: 0
+java.io.IOException: No route to host
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.ipc.Server.channelRead(Server.java:1679)
+	at org.apache.hadoop.ipc.Server.access$2600(Server.java:94)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1060)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:525)
+	at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:332)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-06 08:22:16,124 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_835056271904504803_1401
+2016-08-06 08:22:16,172 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_2871393603441820006_1409
+2016-08-06 08:22:16,172 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_2261179000794689799_1408
+2016-08-06 08:22:16,172 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_-3170665534613821811_1445
+2016-08-06 08:22:16,172 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_8989767674399518519_1439
+2016-08-06 08:22:16,172 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_-4625630045396302418_1446
+2016-08-06 08:22:30,978 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.101:50010
+2016-08-06 08:22:30,980 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.101:50010
+2016-08-06 08:23:36,853 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 8020: readAndProcess threw exception java.io.IOException: No route to host. Count of bytes read: 0
+java.io.IOException: No route to host
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:39)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:197)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.hadoop.ipc.Server.channelRead(Server.java:1679)
+	at org.apache.hadoop.ipc.Server.access$2600(Server.java:94)
+	at org.apache.hadoop.ipc.Server$Connection.readAndProcess(Server.java:1060)
+	at org.apache.hadoop.ipc.Server$Listener.doRead(Server.java:525)
+	at org.apache.hadoop.ipc.Server$Listener$Reader.run(Server.java:332)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2016-08-06 09:02:52,051 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 09:11:09,777 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 09:11:10,715 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 10:02:52,053 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 10:11:11,212 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 10:11:12,102 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 10:32:57,395 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 10.129.40.101:50010 storage DS-298768771-127.0.1.1-50010-1455306420911
+2016-08-06 10:32:57,431 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.101:50010
+2016-08-06 10:32:57,431 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/10.129.40.101:50010
+2016-08-06 10:32:57,432 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 10.129.40.105:50010 storage DS-831073409-127.0.1.1-50010-1468864270012
+2016-08-06 10:32:57,432 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.105:50010
+2016-08-06 10:32:57,432 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/10.129.40.105:50010
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-1354539333615927278_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2871393603441820006_1409 size 32891
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5428718362230013977_1430 size 24
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7365694024996261279_1316 size 31865
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_6624801875103248786_1257 size 527547
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-899276729393918805_1437 size 2263
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_4598516047899952929_1281 size 174
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5170164210555224873_1345 size 2263
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2076437580062927180_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-428885341094302920_1400 size 2263
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-420666581682837071_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_7800425408276669084_1436 size 252064
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_7060723354819213764_1244 size 252064
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_8744788054074886555_1341 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5361790084489695087_1340 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_1901360348298831746_1341 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2689954950405670974_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2870628695068998392_1309 size 31865
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5623882044931407779_1219 size 108
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_183168080523894695_1444 size 2263
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_9123841248040847054_1344 size 252064
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5039782226228320961_1182 size 7
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-8196138552990860782_1245 size 108
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-8272797145284542797_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_5383942234548022414_1422 size 67108864
+2016-08-06 10:32:57,433 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_5466052567881223175_1291 size 16
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_8489125989263198447_1399 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_7260065505333049244_1246 size 53
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_199461101718143948_1438 size 403
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_4477570245197311910_1327 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_3925927483583498370_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-6656128167973333936_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2452225027985972983_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4884242122437060473_1283 size 31865
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_4344963315547487653_1306 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_8989767674399518519_1439 size 32891
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_72222572175116019_1329 size 16
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2090278158508918522_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-468537247206648659_1307 size 174
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7583579703670199188_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-9062094402598788016_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-57777184550369979_1315 size 16
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2713875544199387416_1314 size 174
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2261179000794689799_1408 size 375
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2847910293973015780_1406 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-6681634835606905023_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-1101149552652171977_1292 size 31864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_7714862538677888528_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_5710434593447939432_1247 size 32103
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2888913948569589658_1341 size 30237952
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_4254330310237403334_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_6295140114185393235_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2597912531689280654_1449 size 4
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5492275338736976044_1323 size 31864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_5633486013248256923_1290 size 174
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4086388607960056581_1340 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5705848782725666869_1346 size 551
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7915213082208124126_1340 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2353654526978797607_1347 size 32891
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_518901534313552383_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2417871214545000528_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-935712265488767646_1308 size 16
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-5828528082614869497_1181 size 316
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4715116413481891428_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7051323504171443296_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_8188593968431460462_1341 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-1138127587275113743_1341 size 30237952
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_2144705323921104138_1313 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_3443671178503364439_1221 size 32103
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-1141492145503612067_1330 size 31864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_835056271904504803_1401 size 375
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4037008373088082926_1183 size 1573079
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-2930843813496047538_1282 size 16
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_7508645199896460818_1407 size 2263
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_3030102333151900150_1422 size 67108864
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4672157391347898460_1289 size 252064
+2016-08-06 10:32:57,434 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_1323877054592648917_1322 size 16
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7873698082647761024_1422 size 60475904
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_3190878016246788223_1220 size 53
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-8404800509347272303_1321 size 174
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-8858021995704421511_1328 size 174
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_6539290614623856675_1320 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-7315870317608197228_1280 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_6388772107565970384_1341 size 67108864
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-361057077560580899_1443 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_4398244608897606849_1218 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-18227079561390685_1402 size 32891
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5428718362230013977_1430 size 24
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_6624801875103248786_1257 size 527547
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-7365694024996261279_1316 size 31865
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5170164210555224873_1345 size 2263
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_4598516047899952929_1281 size 174
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-899276729393918805_1437 size 2263
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-428885341094302920_1400 size 2263
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_7800425408276669084_1436 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_7060723354819213764_1244 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_8744788054074886555_1341 size 67108864
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5361790084489695087_1340 size 67108864
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_1901360348298831746_1341 size 67108864
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2870628695068998392_1309 size 31865
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5623882044931407779_1219 size 108
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_183168080523894695_1444 size 2263
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_9123841248040847054_1344 size 252064
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5039782226228320961_1182 size 7
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-8196138552990860782_1245 size 108
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_5466052567881223175_1291 size 16
+2016-08-06 10:32:57,435 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_8489125989263198447_1399 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_7260065505333049244_1246 size 53
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_199461101718143948_1438 size 403
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_3925927483583498370_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_4477570245197311910_1327 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2452225027985972983_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-4884242122437060473_1283 size 31865
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_8989767674399518519_1439 size 32891
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_4344963315547487653_1306 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_72222572175116019_1329 size 16
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-468537247206648659_1307 size 174
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2090278158508918522_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_2713875544199387416_1314 size 174
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-57777184550369979_1315 size 16
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2847910293973015780_1406 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-6681634835606905023_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-1101149552652171977_1292 size 31864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_5710434593447939432_1247 size 32103
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_7714862538677888528_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-3170665534613821811_1445 size 403
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2888913948569589658_1341 size 30237952
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_4254330310237403334_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_6295140114185393235_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2597912531689280654_1449 size 4
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5492275338736976044_1323 size 31864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_5633486013248256923_1290 size 174
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-4086388607960056581_1340 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5705848782725666869_1346 size 551
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_2353654526978797607_1347 size 32891
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-7915213082208124126_1340 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-5828528082614869497_1181 size 316
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-935712265488767646_1308 size 16
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_8188593968431460462_1341 size 67108864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-4625630045396302418_1446 size 32893
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_2144705323921104138_1313 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-1138127587275113743_1341 size 30237952
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_3443671178503364439_1221 size 32103
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-1141492145503612067_1330 size 31864
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-2930843813496047538_1282 size 16
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-4037008373088082926_1183 size 1573079
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_7508645199896460818_1407 size 2263
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-4672157391347898460_1289 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_1323877054592648917_1322 size 16
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-8404800509347272303_1321 size 174
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_3190878016246788223_1220 size 53
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-8858021995704421511_1328 size 174
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-7315870317608197228_1280 size 252064
+2016-08-06 10:32:57,436 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_6539290614623856675_1320 size 252064
+2016-08-06 10:32:57,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-361057077560580899_1443 size 252064
+2016-08-06 10:32:57,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_6388772107565970384_1341 size 67108864
+2016-08-06 10:32:57,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_4398244608897606849_1218 size 252064
+2016-08-06 10:32:57,437 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_-18227079561390685_1402 size 32891
+2016-08-06 10:32:57,628 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_2261179000794689799_1408 size 375
+2016-08-06 10:32:57,628 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-3170665534613821811_1445 size 403
+2016-08-06 10:32:57,629 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_2871393603441820006_1409 size 32891
+2016-08-06 10:33:04,603 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to replicate blk_-4625630045396302418_1446 to datanode(s) 10.129.40.101:50010
+2016-08-06 10:33:04,603 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.101:50010 to replicate blk_835056271904504803_1401 to datanode(s) 10.129.40.105:50010
+2016-08-06 10:33:40,753 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.101:50010 is added to blk_-4625630045396302418_1446 size 32893
+2016-08-06 10:33:40,755 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.105:50010 is added to blk_835056271904504803_1401 size 375
+2016-08-06 10:58:36,614 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.registerDatanode: node registration from 10.129.40.104:50010 storage DS-915564608-127.0.1.1-50010-1469038028348
+2016-08-06 10:58:36,614 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.104:50010
+2016-08-06 10:58:36,614 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/10.129.40.104:50010
+2016-08-06 10:58:36,616 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_2871393603441820006_1409 size 32891
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5428718362230013977_1430 size 24
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-7365694024996261279_1316 size 31865
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_6624801875103248786_1257 size 527547
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-899276729393918805_1437 size 2263
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5170164210555224873_1345 size 2263
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_4598516047899952929_1281 size 174
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-428885341094302920_1400 size 2263
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_7800425408276669084_1436 size 252064
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_7060723354819213764_1244 size 252064
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_8744788054074886555_1341 size 67108864
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5361790084489695087_1340 size 67108864
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_1901360348298831746_1341 size 67108864
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2870628695068998392_1309 size 31865
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5623882044931407779_1219 size 108
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_183168080523894695_1444 size 2263
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_9123841248040847054_1344 size 252064
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5039782226228320961_1182 size 7
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-8196138552990860782_1245 size 108
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_5466052567881223175_1291 size 16
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_8489125989263198447_1399 size 252064
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_7260065505333049244_1246 size 53
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_199461101718143948_1438 size 403
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_3925927483583498370_1341 size 67108864
+2016-08-06 10:58:36,617 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_4477570245197311910_1327 size 252064
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2452225027985972983_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-4884242122437060473_1283 size 31865
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_72222572175116019_1329 size 16
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_4344963315547487653_1306 size 252064
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-468537247206648659_1307 size 174
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2090278158508918522_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_2713875544199387416_1314 size 174
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-57777184550369979_1315 size 16
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_2261179000794689799_1408 size 375
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2847910293973015780_1406 size 252064
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-6681634835606905023_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-1101149552652171977_1292 size 31864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_7714862538677888528_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_5710434593447939432_1247 size 32103
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-3170665534613821811_1445 size 403
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2888913948569589658_1341 size 30237952
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_4254330310237403334_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_6295140114185393235_1341 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2597912531689280654_1449 size 4
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5492275338736976044_1323 size 31864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_5633486013248256923_1290 size 174
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-4086388607960056581_1340 size 67108864
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5705848782725666869_1346 size 551
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_2353654526978797607_1347 size 32891
+2016-08-06 10:58:36,618 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-7915213082208124126_1340 size 67108864
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-935712265488767646_1308 size 16
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-5828528082614869497_1181 size 316
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_8188593968431460462_1341 size 67108864
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-4625630045396302418_1446 size 32893
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-1138127587275113743_1341 size 30237952
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_2144705323921104138_1313 size 252064
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_3443671178503364439_1221 size 32103
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-1141492145503612067_1330 size 31864
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_835056271904504803_1401 size 375
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-4037008373088082926_1183 size 1573079
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-2930843813496047538_1282 size 16
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_7508645199896460818_1407 size 2263
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-4672157391347898460_1289 size 252064
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_1323877054592648917_1322 size 16
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_3190878016246788223_1220 size 53
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-8404800509347272303_1321 size 174
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-8858021995704421511_1328 size 174
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_6539290614623856675_1320 size 252064
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-7315870317608197228_1280 size 252064
+2016-08-06 10:58:36,619 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-361057077560580899_1443 size 252064
+2016-08-06 10:58:36,647 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_6388772107565970384_1341 size 67108864
+2016-08-06 10:58:36,647 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_4398244608897606849_1218 size 252064
+2016-08-06 10:58:36,647 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_-18227079561390685_1402 size 32891
+2016-08-06 10:58:49,698 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.129.40.105:50010 to replicate blk_8989767674399518519_1439 to datanode(s) 10.129.40.104:50010
+2016-08-06 10:58:51,307 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.129.40.104:50010 is added to blk_8989767674399518519_1439 size 32891
+2016-08-06 11:02:52,062 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 11:11:13,031 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 11:11:15,762 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 12:02:52,064 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 12:11:16,224 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 12:11:17,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 13:02:52,066 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 13:11:17,533 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 13:11:18,447 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 14:02:52,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 14:11:18,902 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 14:11:20,116 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 15:02:52,080 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 15:11:20,610 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 15:11:21,485 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 16:02:52,081 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 16:11:22,208 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 16:11:23,147 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 16:52:31,814 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.101:50010
+2016-08-06 16:52:31,816 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.101:50010
+2016-08-06 16:52:31,816 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.105:50010
+2016-08-06 16:52:31,819 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.105:50010
+2016-08-06 16:52:31,819 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.heartbeatCheck: lost heartbeat from 10.129.40.104:50010
+2016-08-06 16:52:31,821 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.129.40.104:50010
+2016-08-06 17:02:52,083 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 17:11:23,591 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 17:11:25,546 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 18:02:52,084 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 18:11:26,194 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 18:11:27,130 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 19:02:52,086 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 19:11:27,726 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 19:11:28,688 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 20:02:52,087 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 20:11:29,268 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 20:11:30,681 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 21:02:52,088 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 21:11:31,272 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 21:11:32,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 22:02:52,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 22:11:32,741 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 22:11:34,304 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100
+2016-08-06 23:02:52,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem.audit: ugi=hduser	ip=/10.129.40.100	cmd=listStatus	src=/jobtracker/jobsInfo	dst=null	perm=null
+2016-08-06 23:11:34,817 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.129.40.100
+2016-08-06 23:11:35,672 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.129.40.100

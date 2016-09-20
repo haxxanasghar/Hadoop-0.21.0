@@ -1,0 +1,8 @@
+2016-07-22 01:49:26,923 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_slave5-desktop:localhost/127.0.0.1:39506'
+2016-07-22 12:12:18,646 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-07-22 15:42:47,058 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_slave3-desktop:localhost/127.0.0.1:41619'
+2016-07-22 15:42:47,059 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_slave4:localhost/127.0.0.1:34409'
+2016-07-22 16:01:22,144 INFO org.apache.hadoop.mapred.JobTracker: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down JobTracker at master/10.129.40.100
+************************************************************/

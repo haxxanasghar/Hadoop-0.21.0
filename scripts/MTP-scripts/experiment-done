@@ -1,0 +1,14 @@
+		with-straggler		without-straggler
+spec-off	done			done
+
+spec-on-with-original
+
+low		done
+medium		done
+high		done
+
+spec-on-without-original
+
+low		done
+medium		running			running
+high		

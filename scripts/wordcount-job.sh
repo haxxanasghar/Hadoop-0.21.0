@@ -1,6 +1,31 @@
-date +"%D %T" > wordcount-$1
+#usage : ./wordcount-job.sh filesize blocksize experimentFile
 
-#argument1 = terasort-input(argument1)
-time hadoop jar ../hadoop-*examples*.jar wordcount /user/hduser/wordcount-input-$1 /user/hduser/wordcount-output-$1 >> wordcount-$1
+fileSize=$1
+blockSize=$2
+experimentFile=$3
 
-date +"%D %T" >> wordcount-$1
+
+experimentFolder="experiment-data/$experimentFile"
+
+rm -r $experimentFolder
+mkdir -p $experimentFolder
+
+jobdataFile="$experimentFolder/$experimentFile"
+
+wordcountInputFile="/user/hduser/randomtextwriter-$fileSize-GB-$blockSize-block"
+wordcountOutputFile="/user/hduser/$experimentFile"
+
+
+date +"%D %T" > $jobdataFile
+
+hadoop fs -rmr $wordcountOutputFile
+
+nohup bash -c "sleep 30; ./jobId.sh $jobdataFile;" >/dev/null 2>&1 &
+
+time hadoop jar ../hadoop-*examples*.jar wordcount $wordcountInputFile $wordcountOutputFile >> $jobdataFile
+
+date +"%D %T" >> $jobdataFile
+
+hadoop fs -rmr $wordcountOutputFile
+
+

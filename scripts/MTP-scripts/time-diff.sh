@@ -19,6 +19,10 @@ do
         FinalDate1=$(date -u -d "$endTime1" +"%s")
         timeDiff1=$((FinalDate1-StartDate1))
 
+	if [ $timeDiff1 -lt 0 ];then
+		timeDiff1=$((86400+timeDiff1))
+	fi
+
 	printf $fileSize"\t"$timeDiff1"\n" >> $dataoutput
 
 done 3<$datainput1

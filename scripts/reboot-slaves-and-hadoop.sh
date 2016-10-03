@@ -8,7 +8,7 @@ ssh -f hduser@slave5 "sudo reboot; exit;" &
 
 echo "reboot finish"
 
-sleep 180
+sleep 300
 
 echo "sleep finish"
 
@@ -18,6 +18,8 @@ hadoop dfsadmin -safemode leave
 
 hadoopScriptsDir="/usr/local/hadoop/scripts"
 
-ssh -f hduser@slave5 "cd $hadoopScriptsDir; nohup ./realProcessBehaviour.sh 2> /dev/null ; exit;" &
+ssh -f hduser@slave1 "cd $hadoopScriptsDir; nohup ./realProcessBehaviour.sh 2> /dev/null ; exit;" &
+
+ssh -f hduser@slave3 "cd $hadoopScriptsDir; nohup ./realProcessBehaviour.sh 2> /dev/null ; exit;" &
 
 echo "restart-hadoop finish"

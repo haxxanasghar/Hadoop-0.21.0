@@ -3,11 +3,14 @@
 
 import sys
 
-def chop(start, end, inputfilename, outputfilename):
-	file_output = open(outputfilename, "w")
+def chop(start_time, end_time, inputfilename, outputfilename, write):
+	if write :
+		file_output = open(outputfilename, "w")
+	else :
+		file_output = open(outputfilename, "a")
 	f = open(inputfilename)
-	start_time = [int(x) for x in start.split(':')] #['hr', 'min', 'sec']
-	end_time = [int(x) for x in end.split(':')]
+	#start_time = [int(x) for x in start.split(':')] #['hr', 'min', 'sec']
+	#end_time = [int(x) for x in end.split(':')]
 
 	line = f.readline()
 	#file_output.write(line)
@@ -59,5 +62,22 @@ def greater_than_equal(time1, time2):
 		return False
 
 
-chop(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
-    	
+#chop(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
+
+start = sys.argv[1]
+end = sys.argv[2]
+
+start_time = [int(x) for x in start.split(':')] #['hr', 'min', 'sec']
+end_time = [int(x) for x in end.split(':')]
+
+if start_time[0] > end_time[0]:
+	start_time1 = start_time
+	end_time1 = [23, 59, 59]
+	chop(start_time1, end_time1, sys.argv[3], sys.argv[4], True)	    	
+
+	start_time2 = [0, 0, 0]
+	end_time2 = end_time
+	chop(start_time2, end_time2, sys.argv[3], sys.argv[4], False)	    	
+
+else :
+	chop(start_time, end_time, sys.argv[3], sys.argv[4], True)	

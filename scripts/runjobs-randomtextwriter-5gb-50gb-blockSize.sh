@@ -5,6 +5,8 @@
 
 blockSize=$1
 
+./reboot-slaves-and-hadoop.sh
+
 ./randomtextwriter-experiment.sh 5 $blockSize
 sleep 120
 ./randomtextwriter-experiment.sh 10 $blockSize

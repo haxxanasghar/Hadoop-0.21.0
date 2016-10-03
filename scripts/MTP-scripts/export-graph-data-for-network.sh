@@ -1,22 +1,29 @@
 #!/bin/bash
 
-blockSize=$1
-specFlag=$2 #on/off
-mapredTask=$3
+workload=$1  #terasort/wordcount
+blockSize=$2
+straggler=$3 #with/without     
+specFlag=$4  #off/on-with-original/on-without-origina
+aggre=$5     #no/low/medium/high
+
+startSize=$6
+endSize=$7
+inc=$8
+
 
 currentDir="/usr/local/hadoop/scripts/MTP-scripts"
-outputFile="$currentDir/network-consumption/network-consumption-spec-$specFlag-5gb-50gb-blocksize-$blockSize-mapred-$mapredTask-task"
+outputFile="$currentDir/network-consumption/network-consumption-$workload-$startSize-GB-$endSize-GB-$blockSize-block-$straggler-straggler-spec-$specFlag-aggressiveness-$aggre"
 rm $outputFile
 
 touch $outputFile
 
-printf "Workload-Size\tSpec-$specFlag-BlockSize-$blockSize\n" >> $outputFile
+printf "Workload-Size\t$straggler-straggler-spec-$specFlag-aggressiveness-$aggre\n" >> $outputFile
 
 pushd "../experiment-data"
 
-for (( i=5; i <= 50; i=i+5))
+for (( i=$startSize; i <= $endSize; i=i+$inc))
 do
-	column1Dir="terasort-$i-GB-$blockSize-block-spec-$specFlag-mapred-$mapredTask-task"
+	column1Dir="$workload-$i-GB-$blockSize-block-$straggler-straggler-spec-$specFlag-aggressiveness-$aggre"
 
 	#printf "$i\t" >> $outputFile
 

@@ -3,4 +3,4 @@ Instead use the mapred command for it.
 
 Total jobs:1
 JobId	State	StartTime	UserName	Priority	SchedulingInfo
-job_201610031445_0005	RUNNING	1475496661627	null	NORMAL	NA
+job_201610061027_0005	RUNNING	1475739909309	null	NORMAL	NA

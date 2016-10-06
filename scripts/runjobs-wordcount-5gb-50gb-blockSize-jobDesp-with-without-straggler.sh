@@ -7,8 +7,8 @@
 
 blockSize=1024
 straggler="with" #with/without
-spec="on-without-original"      #off/on-with-original/on-without-original
-aggre="high"     #no/low/medium/high
+spec="off"      #off/on-with-original/on-without-original
+aggre="no"     #no/low/medium/high
 
 ./reboot-slaves-and-hadoop.sh
 
